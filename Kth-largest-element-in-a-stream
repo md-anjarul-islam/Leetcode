@@ -1,0 +1,56 @@
+/**
+    Intution:
+        What would be the naive solution?
+        - Keep a list that will contain all the added numbers
+        - When a new value will be added, push it to the list
+        - Sort the list
+        - Return kth position value.
+
+    Optimization:
+        - Do we really need to keep the other values that are after kth index?
+        - If not needed then why we will add a new value!!?
+        - We need to consider new value because that can come up to the first k list.
+        - Ok fine. So why not maintain a sorted list of k legth?
+        - That's good. But again we'll have to keep the list sorted after adding new values.
+        - Sorting on each addition is costly.
+        - Ok, What we do actually need after sorting?
+        - The kth indexes value. Or in simple the last value after sorting (if the list in descending order)
+        - Yeah, if we keep the list in descending order then the last position will have the answer always.
+        - But again it might be costly to sort after adding a new value.
+        - Can't we use heap/priority queue here? It already keep things sorted. and also addition/deletion from the last/top is in O(log N),
+        - Yeah that's the idea.
+        - Keep a heap of size k
+        - Add new value to heap. And then discard the top value if the heap size is more than K.
+        - The heap's top will have the answer always.
+*/
+class KthLargest {
+    priority_queue<int, vector<int>, greater<int>> topK;
+    int K;
+public:
+    KthLargest(int k, vector<int>& nums) {
+        K = k;
+        for(int num: nums){
+            topK.push(num);
+            if(topK.size() > k){
+                topK.pop();
+            }
+        }
+    }
+    
+    int add(int val) {
+
+        topK.push(val);
+
+        if(topK.size() > K){
+            topK.pop();
+        }
+
+        return topK.top();
+    }
+};
+
+/**
+ * Your KthLargest object will be instantiated and called as such:
+ * KthLargest* obj = new KthLargest(k, nums);
+ * int param_1 = obj->add(val);
+ */
