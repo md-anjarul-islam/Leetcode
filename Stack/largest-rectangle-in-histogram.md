@@ -1,72 +1,87 @@
-/**
-    Given: 2,1,5,6,2,3
-    Let's iterate over the array and consider each element to be
-    a possible candidate height for the final result.
+# Problem description
+Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.
 
-    Take the first height 2:
-        To get the max possible area for height 2 we need to know
-        the subarray to the left & right from 2 where 2 will be smallest
-        among them.
-        Till now we don't know how far we can get to the right so that 2
-        remains smallest. So we don't know the result of 2 yet as well.
-        Let's pause it's calculation for future. (maintain a pause list)
+# Solution Idea
 
-    Go to the next height 1:
-        Again we don't how far we can get to the right so that 1
-        remains smallest.
+**Given heights:** 2,1,5,6,2,3.
 
-        But earlier we paused calculation for 2 because we didn't know the
-        upper bound for that. But now as we've got a smaller number "1"
-        so 2 is no more the smallest. Right?
-        It clearly appears that, this is the upper bound of 2. Right?
+Let's iterate over the array and consider each element to be
+a possible candidate height for the final result.
 
-        Though we've got the upper bound of 2, what is the lower bound?
+**Take the first height:**
 
-        Before answering the question, let's look into some other observations.
+**2**,1,5,6,2,3.
 
-        Do we need to keep 2 in the paused list anymore?
-        
-        No. Because as we've got the upper bound of 2 we don't need to 
-        extend it anymore. We can calculate result for 2 here and remove 
-        it from the paused list.
+To get the max possible area for height 2 we need to know
+the subarray to the left & right from 2 where 2 will be smallest
+among them.
+Till now we don't know how far we can get to the right so that 2
+remains smallest. So we don't know the result of 2 yet as well.
+Let's pause it's calculation for future. (maintain a pause list)
 
-        So basically when we are getting a new height, we can remove all
-        the bigger heights from the paused list. Because we don't need them
-        anymonre.
+**Go to the next height 1:**
 
-        Thus the paused list will always be sorted in increasing order.
-        Right?
-   
-        Here's the simulation of paused list for the given input
-        Initial: []
-        Add 2: [2]
-        Add 1: [1]          --> (removed 2, no need to extend)
-        Add 5: [1, 5]       --> (added 5, because it can be extended)
-        Add 6: [1, 5, 6]    --> (added 6, because it can be extended)
-        Add 2: [1, 2]       --> (removed 6, 5)
-        Add 3: [1, 2, 3]    --> (added 3)
+2,**1**,5,6,2,3.
 
-    Now if you understand the simulation you can easily visualize
-    what's the lower bound of a height should be.
+Again we don't how far we can get to the right so that 1
+remains smallest.
 
-    The lower bound for a height will be the position of the previous
-    height from the list who is smaller than that height.
-    
-    As the list is sorted, it's easy to know where is the previous height
-    that is smaller than current height.
+But earlier we paused calculation for 2 because we didn't know the
+upper bound for that.
+**But now as we've got a smaller number "1"
+so 2 is no more the smallest. Right?**
+**It clearly appears that, this is the upper bound of 2. Right?**
 
-    So for simplicity we can keep the position of each height in the
-    paused list to know the lower bound of a height easily.
+Though we've got the upper bound of 2, what is the lower bound?
 
-    So now as we can find the lower and upper bound of a height we can easily calculate the area for that height
+Before answering the question, let's look into some other observations.
 
-    Equation is
-        height * distance
-        height * (upper bound - lower bound + 1)
+**Do we need to keep 2 in the paused list anymore?**
 
-    Thus we can calculate max area for each height and take the maximum area.
-*/
+**No.** Because as we've got the upper bound of 2 we don't need to 
+extend it anymore. We can calculate result for 2 here and remove 
+it from the paused list.
 
+So basically when we are getting a new height, we can remove all
+the bigger heights from the paused list. Because we don't need them
+anymonre.
+
+**Thus the paused list will always be sorted in increasing order.
+Right?**
+
+# Idea simulation
+    Simulation of the paused list
+
+    Initial: []
+    Add 2: [2]
+    Add 1: [1]          --> (removed 2, no need to extend)\
+    Add 5: [1, 5]       --> (added 5, because it can be extended)
+    Add 6: [1, 5, 6]    --> (added 6, because it can be extended)
+    Add 2: [1, 2]       --> (removed 6, 5
+    Add 3: [1, 2, 3]    --> (added 3)
+
+Now if you understand the simulation you can easily visualize
+what's the lower bound of a height should be.
+
+**The lower bound for a height will be the position of the previous height from the list who is smaller than that height.**
+As the list is sorted, it's easy to know where is the previous height
+that is smaller than current height.
+
+So for simplicity we can keep the position of each height in the
+paused list to know the lower bound of a height easily.
+
+So now as we can find the lower and upper bound of a height we can easily calculate the area for that height
+
+**Equation is**
+```
+Area = height * distance
+     = height * (upper bound - lower bound + 1)
+```
+
+Thus we can calculate max area for each height and take the maximum area.
+
+# Solution
+```
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -98,3 +113,4 @@ public:
         return ans;
     }
 };
+```
