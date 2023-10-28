@@ -11,3 +11,5 @@ Leetcode problem and solution idea
 | 543 |	Diameter of Binary Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Trees/diameter-of-binary-tree.md) | [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | Tree |
 | 134 |	Gas Station | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/gas-station.md) | [134. Gas Station](https://leetcode.com/problems/gas-station/) | Medium | Greedy |
 | 45 |	Jump Game II | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/jump-game-ii.md) | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | Greedy |
+| 846 |	Hand of Straights | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/hand-of-straights.md) | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights) | Medium | Greedy |
+
