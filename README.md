@@ -12,4 +12,5 @@ Leetcode problem and solution idea
 | 134 |	Gas Station | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/gas-station.md) | [134. Gas Station](https://leetcode.com/problems/gas-station/) | Medium | Greedy |
 | 45 |	Jump Game II | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/jump-game-ii.md) | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | Greedy |
 | 846 |	Hand of Straights | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/hand-of-straights.md) | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights) | Medium | Greedy |
+| 763 |	Partition Labels | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/partition-labels.md) | [763. Partition Labels](https://leetcode.com/problems/hand-of-straights) | Medium | Greedy |
 
