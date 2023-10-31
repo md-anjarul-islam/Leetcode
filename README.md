@@ -14,4 +14,5 @@ Leetcode problem and solution idea
 | 846 |	Hand of Straights | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/hand-of-straights.md) | [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights) | Medium | Greedy |
 | 763 |	Partition Labels | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Greedy/partition-labels.md) | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | Greedy |
 | 100 |	Same Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/same-tree.md) | [100. Same Tree](https://leetcode.com/problems/same-tree/description/) | Easy | Tree |
+| 110 |	Balanced Binary Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/balanced-binary-tree.md) | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) | Easy | Tree |
 
