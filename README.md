@@ -19,3 +19,5 @@ Leetcode problem and solution idea
 | 235 |	Lowest Common Ancestor of a Binary Search Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/lca-of-a-bst.md) | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | Medium | Tree |
 | 102 |	Binary Tree Level Order Traversal | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/binary-tree-level-order-traversal.md) | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | Medium | Tree |
 | 199 |	Binary Tree Right Side View | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/binary-tree-right-side-view.md) | [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/) | Medium | Tree |
+| 1448 |	Count Good Nodes in Binary Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/count-good-nodes-in-binary-tree.md) | [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/) | Medium | Tree |
+
