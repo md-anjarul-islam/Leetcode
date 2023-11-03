@@ -16,3 +16,5 @@ Leetcode problem and solution idea
 | 100 |	Same Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/same-tree.md) | [100. Same Tree](https://leetcode.com/problems/same-tree/description/) | Easy | Tree |
 | 110 |	Balanced Binary Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/balanced-binary-tree.md) | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) | Easy | Tree |
 | 572 |	Subtree of Another Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/subtree-of-another-tree.md) | [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | Easy | Tree |
+| 235 |	Lowest Common Ancestor of a Binary Search Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/lca-of-a-bst.md) | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | Medium | Tree |
+
