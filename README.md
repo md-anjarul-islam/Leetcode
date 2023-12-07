@@ -21,4 +21,5 @@ Leetcode problem and solution idea
 | 199 |	Binary Tree Right Side View | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/binary-tree-right-side-view.md) | [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/) | Medium | Tree |
 | 1448 |	Count Good Nodes in Binary Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/count-good-nodes-in-binary-tree.md) | [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/) | Medium | Tree |
 | 56 |	Merge Intervals | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Intervals/merge-intervals.md) | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | Medium | Interval |
+| 57 |	Insert Interval | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Intervals/insert-interval.md) | [57. Insert Interval](https://leetcode.com/problems/insert-interval/description/) | Medium | Interval |
 
