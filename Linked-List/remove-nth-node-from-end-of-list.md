@@ -1,6 +1,45 @@
 ```cpp
 /**
+ ** Solution 1:
+ */
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        int len = 0;
 
+        ListNode * temp = head;
+        while(temp){
+            temp = temp->next;
+            len++;
+        }
+        int targetPos = len-n+1; // need to delete this positions node
+
+        if(targetPos == 1){
+            return head->next;
+        }
+
+        temp = head;
+        // i = 1 because temp is already positioned at 1.
+        // we need to delete targetPos. But to do this we need
+        // its previous pointer
+
+        // look at the condition. it breaks when i will be at targetPos-1
+        for(int i=1; i<targetPos-1; i++){
+            temp = temp->next;
+        }
+        // temp is positined at targetPos-1 position
+        temp->next = temp->next->next;
+
+        return head;
+    }
+};
+
+```
+
+
+```cpp
+/**
+Solution 2:
  */
 class Solution {
 public:
