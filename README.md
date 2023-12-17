@@ -25,4 +25,6 @@ Leetcode problem and solution idea
 | 435 |	Non-overlapping Intervals | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Intervals/non-overlapping-intervals.md) | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/) | Medium | Interval |
 | 253 |	Meeting Rooms II | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Intervals/meeting-rooms-ii.md) | [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | Medium | Interval |
 | 19 | Remove Nth Node From End of List | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Linked-List/remove-nth-node-from-end-of-list.md) | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium | Linked List |
+| 287 | Find the Duplicate Number | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Array/find-the-duplicate-number.md) | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | Medium | Array |
+
 
