@@ -30,4 +30,4 @@ Leetcode problem and solution idea
 | 230 | Kth Smallest Element in a BST | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/kth-smallest-element-in-bst.md) | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | Medium | Tree |
 | 39 | Combination Sum | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Backtracking/combination-sum.md) | [39. Combination Sum](https://leetcode.com/problems/combination-sum/description/) | Medium | Tree |
 | 46 | Permutations | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Backtracking/permutations.md) | [46. Permutations](https://leetcode.com/problems/permutations/description/) | Medium | Tree |
-
+| 90 | Subsets II | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Backtracking/subsets-ii.md) | [90. Subsets II](https://leetcode.com/problems/subsets-ii/description/) | Medium | Tree |
