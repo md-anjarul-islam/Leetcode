@@ -28,5 +28,4 @@ Leetcode problem and solution idea
 | 287 | Find the Duplicate Number | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Array/find-the-duplicate-number.md) | [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | Medium | Array |
 | 98 | Validate Binary Search Tree | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/validate-binary-search.md) | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | Medium | Tree |
 | 230 | Kth Smallest Element in a BST | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/kth-smallest-element-in-bst.md) | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | Medium | Tree |
-| 124 | Binary Tree Maximum Path Sum | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Tree/binary-tree-maximum-path-sum.md) | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | Medium | Tree |
-
+| 39 | Combination Sum | [C++](https://github.com/md-anjarul-islam/Leetcode/blob/main/Backtracking/combination-sum.md) | [39. Combination Sum](https://leetcode.com/problems/combination-sum/description/) | Medium | Tree |
